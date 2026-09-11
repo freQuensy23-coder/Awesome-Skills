@@ -33,6 +33,14 @@ python -m unittest discover -s music-editor/tests -v
 
 FFmpeg and ffprobe must be installed and on PATH. Refer to [script usage](music-editor/references/scripts.md) for the exact processing and QA commands. Network inference is opt-in and requires your own authorized account and input rights.
 
+## Secrets and Credentials Safety skill
+
+[Open the skill](secrets-and-credentials-safety/SKILL.md).
+
+An unchanged copy of Alexey's personal credential-handling policy, with linked procedures for private delivery, encrypted archives, and read-only secret audits. It distinguishes returning the owner's own credentials in his private Telegram chat from disclosing them to external destinations. The package contains instructions, not actual credentials or account sessions.
+
+This skill is personalized to Alexey and his private agent context; review and adapt that context before using it elsewhere. Its original `license: private` metadata is preserved, and this directory is excluded from the repository's general MIT license grant.
+
 ## Scope and privacy
 
 "Awesome Skills" is the display title; GitHub assigned the repository slug `Awesome-Skills`. The Music Editor skill is self-contained: it does not require its author's local skills, project directory, account, or past conversations. It reproduces the method, not a promise of byte-identical stochastic music generation.
